@@ -1,6 +1,6 @@
-import { NFTCard } from "./components/nftCard"
+import { NFTCard } from "../components/nftCard"
+import PaginationBar from "../components/paginationBar";
 import { useState } from 'react'
-import PaginationBar from "./components/paginationBar";
 
 const Home = () => {
  const [wallet, setWalletAddress] = useState("");

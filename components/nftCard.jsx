@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import copyPic from '../../styles/images/copy.png'
+import copyPic from '../styles/images/copy.png'
 
 export const NFTCard = ({ nft }) => {
 
